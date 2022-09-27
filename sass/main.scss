@@ -1,0 +1,60 @@
+// Fonts
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-regular.woff2);
+}
+
+@font-face {
+  font-family: raleway_f;
+  src: url(../fonts/raleway-black.woff2);
+  font-weight: 900;
+}
+
+// Styles
+body {
+  background-color: #010101;
+  color: #fff;
+  font-family: raleway_f, sans-serif;
+  line-height: 1.55;
+}
+
+.main-header {
+  position: relative;
+}
+.layers {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  // .layers__caption
+  &__caption {
+  }
+  // .layers__title
+  &__title {
+  }
+  // .layers__base
+  &__base {
+  }
+  // .layers__front
+  &__front {
+  }
+}
+.layer {
+  // .layer__header
+  &__header {
+  }
+}
+.main-article {
+}
+.main-aricle {
+  // .main-aricle__content
+  &__content {
+  }
+  // .main-aricle__header
+  &__header {
+  }
+}
+.copy {
+}
